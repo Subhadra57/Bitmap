@@ -1,0 +1,138 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 300px;
+}
+.date-time{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+.navbar{
+    background-color: rgb(65, 65, 136);
+    display: flex;
+    justify-content: space-between;
+}
+.menu li{
+    display: inline;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+}
+.menu a:hover{
+    background-color: red;
+}
+.active{
+    background-color: red;
+}
+
+
+.navbar img{
+    height: 50px;
+}
+
+
+.container{
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 15px;
+}
+
+.container img{
+    width: 100%;
+}
+
+.news-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.news-details{
+display: flex;
+justify-content: space-between;
+color: red;
+}
+.news-cards{
+    background-color: rgb(218, 203, 185);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgb(230, 225, 205);
+    cursor: pointer;
+}
+
+.news-cards:hover{
+    box-shadow: 1px 1px 10px rgb(221, 177, 184);
+    transform: scale(1.01);
+}
+.popular-tag{
+    display: flex;
+    align-items: center;
+}
+
+.popular-tag p{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.popular-tag hr{
+    flex: 1;
+    height: 3px;
+    background-color: red;
+}
+
+.popular-card{
+    display: flex;
+    background-color: azure;
+    border-radius: 1px;
+    padding: 10px;
+    border-radius:10px;
+    box-shadow: 1px 1px 1px rgb(230, 225, 205);
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 10px 0;
+}
+.popular-card h3{
+    font-size: small;
+}
+.popular-card img{
+    height: 80px;
+}
+.popular-card:hover{
+    box-shadow: 1px 1px 10px rgb(209, 198, 178);
+    transform: scale(1.01);
+}
+.popular-card h3{
+    padding: 0 10px;
+    color: blue;
+}
+
+.footer{
+    background-color: rgb(29, 29, 61);
+    color: white;
+    padding: 10px 50px;
+}
+.upper-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.samacharsadhai img{
+    width: 100px;
+}
+.lower-footer{
+    display:flex;
+    justify-content: space-between;
+}
+a:hover{
+    
+}

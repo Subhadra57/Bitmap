@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+    /* background-color: rgb(212, 204, 204); */
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.myform{
+    background-color: rgb(243, 237, 237);
+    width: 300px;
+    margin: 10% auto 10% auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1xp 8px rgb(230, 215, 215);
+}
+.myform h1{
+    text-align: center;
+}
+.input-group{
+    margin: 10px 5px;
+}
+.input-group input{
+    display: block;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid rgb(156, 84, 156);
+    border-radius: 10px;
+}
+.input-group input:focus{
+    outline: 2px solid rgb(207, 157, 166);
+}
+.input-group input[type=submit]
+{
+    /* background-color: blue; */
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    width: 50%;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}

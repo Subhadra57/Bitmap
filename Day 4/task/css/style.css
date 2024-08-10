@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+    border-left: 2px solid blue;
+    padding: 5px;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: blue;
+}
+.service-container h1{
+    text-align: left;
+}
+.service-secetion > p{
+text-align: left;
+}
+.service-container{
+    padding: 50px;
+}
+.services{
+    background-color: rgb(231, 195, 127);
+    width: 25%;
+    /* display: inline-block; */
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 5px solid blue;
+    transition:0.5s;
+}
+
+.services:hover{
+    background-color: red;
+    color: white;
+    /* box-shadow: [h-offset] [v-offset] [blur-radius] [optional spread radious] [color]; */
+    box-shadow: 1px 2px 10px rgb(0, 0, 0);
+}

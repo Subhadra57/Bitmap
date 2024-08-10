@@ -1,0 +1,113 @@
+body{
+    font-family: sans-serif;
+   padding: 0;
+   margin: 0;
+}
+
+.Login-div{
+    width: 80%;
+    height: 100vh;
+    margin: 50px auto;
+    background-color: white;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 15px;
+}
+.left-div{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    background-color: azure;
+
+}
+
+.left-div p{
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.right-div{
+    text-align: center;
+    padding: 40px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 1px 1px rgb(172, 159, 135);
+
+}
+.right-div button{
+margin: 5px;
+padding: 10px;
+}
+.right-div a{
+    display: flex;
+    background-color: rgb(120, 160, 120);
+    margin: 10px;
+    padding: 10px;
+}
+.right-div input{
+    margin: 5px;
+    padding: 5px;
+
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    margin: 0;
+    font-size: 32px;
+    color: rgb(31, 31, 199);
+}
+h2 {
+    font-size: 12px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: blue;
+}
+.input{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgb(172, 155, 123);
+    border-radius: 4px;
+}
+.Login {
+    background-color: rgb(134, 134, 221);
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Login:hover {
+    background-color: rgb(62, 62, 160);
+}
+.forgot{
+    display: block;
+    font-size: 12px;
+    color: rgb(57, 57, 141);
+    text-decoration: none;
+}
+hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid rgb(201, 181, 145);
+}
+a{
+    font-size: 14px;
+    text-decoration: rgb(55, 55, 148);
+    text-decoration: none;
+    border-radius: 5px;
+}
+.a {
+    font-size: 12px;
+    color: rgb(55, 184, 55);
+}
+

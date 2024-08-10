@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+}
+.service-section{
+    text-align: center;
+    background-color: rgb(197, 197, 230);
+}
+.website{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px 150px;
+    gap: 25px;
+}
+.website{
+    background-color: azure;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 1px 2px 5px rgb(138, 124, 98);
+    cursor: pointer;
+    transition: 0.4s;
+}

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(206, 195, 176);
+}
+.login-div{
+    text-align: center;
+    width: 30%; 
+    box-shadow: 1px 1px 15px rgb(109, 96, 96);
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+.login-div p{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
+p{
+    font-size: 15px;
+    color: rgb(59, 55, 55);
+    margin: 5px;
+    padding: 5px;
+}
+.my-form{
+margin-top: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(172, 157, 157);
+    border-radius: 5px;
+}
+
+
+button[type="submit"]{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: orange;
+}

@@ -1,0 +1,29 @@
+.body{
+    font-family: sans-serif;
+}
+
+.footer{
+    background-color: rgb(48, 48, 165);
+    color: white;
+    padding: 10px 50px;
+}
+.upper-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-subscribe{
+    text-align: center;
+}
+.btnemailaddress{
+    margin: 10px 0px;
+}
+.lower-footer{
+    background-color: rgb(80, 80, 231);
+    color: white;
+    padding: 10px 50px;
+}
+.lower-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

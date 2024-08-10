@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+}
+
+.heading{
+    text-align: center;
+}
+
+.mydiv{
+    background-color: rgb(203, 211, 224);
+    width: 20%;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.mybtn{
+    border-style:orangered;
+    color: white;
+    padding: 10px;
+    text-decoration:none;
+}
+.mybutton{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
